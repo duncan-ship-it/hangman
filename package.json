@@ -1,0 +1,28 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/two.js": "^0.7.9",
+    "fuse-box": "^4.0.0",
+    "rollup": "^4.7.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "esbuild": "^0.19.8",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-esbuild": "^6.1.0"
+  },
+  "scripts": {
+    "start": "rollup -c --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
