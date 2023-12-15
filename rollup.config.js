@@ -11,9 +11,9 @@ export default {
 	},
 	plugins: [nodeResolve(), typescript(), copy({
 		targets: [
-			{ src: 'src/index.html', dest: 'dist' },
-			{ src: 'src/assets', dest: 'dist' },
-			{ src: 'src/index.css', dest: 'dist' }
+			{ src: 'src/index.html', dest: 'docs' },
+			{ src: 'src/assets', dest: 'docs' },
+			{ src: 'src/index.css', dest: 'docs' }
 		]})
 	]
 };
